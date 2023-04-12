@@ -1,4 +1,14 @@
-.wrapper {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1280px;
+  }
+  
+
+
+
+  .wrapper {
     max-width: 1280px;
 }
 
@@ -11,21 +21,65 @@ nav img {
     width: 100%;
 }
 
-.list {
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+  }
+  
+
+  .grid-01 li {
     list-style: none;
-    text-decoration: none;
+
+  }
+  
+  .grid-01 {
+    background-color: white;
+    max-width: 1280px;
+    display: grid;
+    grid-template-rows: repeat(1, 50px); 
+    grid-template-columns: repeat(10, 1fr); 
+    background-color: black;
+    color: white; 
+    align-items: center;
+  }
+
+.grid-01 li:nth-child(1) {
+    grid-column: 2 / span 3;
+    font-size: large;
+}
+
+.grid-01 li:nth-child(2) {
+    grid-column: 7 / 7;
     font-size: small;
 }
 
-.list li:nth-child(1) {
-    font-size: large;
-    align-items: start;
+.grid-01 li:nth-child(3) {
+    grid-column: 8 / 8;
+    font-size: small;
 }
 
-a {
+
+.grid-01 li:nth-child(4) {
+    grid-column: 9 / 9;
+    font-size: small;
+}
+
+
+.grid-01 li:nth-child(5) {
+    grid-column: 10 / 10;
+    font-size: small;
+}
+
+
+a:link {
     text-decoration: none;
     color: white;
 }
+
+a:visited {
+    text-decoration: none;
+    color: white;   
+}
+
+/* This section above is for the nav */
+
