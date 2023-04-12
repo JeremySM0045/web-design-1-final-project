@@ -7,7 +7,6 @@
   
 
 
-
   .wrapper {
     max-width: 1280px;
 }
@@ -172,24 +171,29 @@ button {
     margin-top: 3rem;
     
 }
+/* 
+this section above is for what i can do */
 
-/* .section-01 + h2 {
+
+.showcase-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.showcase-section p {
     text-align: center;
-    margin-top: 5em;
-}
- 
-.article-section {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-bottom:5rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
 }
 
+h2:nth-child(4) {
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
 
-.article-section article {
-    text-align:start;
-    background-color: white;
-    font-size: small;
-    
-} */
+.showcase-section figure img {
+    width: fit-content;
+}
