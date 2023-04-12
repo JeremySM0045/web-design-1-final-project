@@ -83,3 +83,61 @@ a:visited {
 
 /* This section above is for the nav */
 
+.bio {
+    width: 50%;
+    margin-top: -22em;
+    margin-left: 32em;
+
+}
+
+.section-01 {
+    margin-left: 3.5em;
+    margin-right: 12em;
+    margin-top: 7em;
+}
+
+.flex-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 0.8rem;
+    margin-right: 22em;
+}
+
+.flex-01 p {
+    padding-top: 1.5em;
+}
+
+.section-01 h1 {
+    font-size: 2rem;
+}
+
+.section-01 h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5em;
+}
+
+
+/* 
+this section above is for about me */
+
+/* .section-01 + h2 {
+    text-align: center;
+    margin-top: 5em;
+}
+ 
+.article-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+.article-section article {
+    text-align:start;
+    background-color: white;
+    font-size: small;
+    
+} */
