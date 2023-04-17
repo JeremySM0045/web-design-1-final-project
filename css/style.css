@@ -197,3 +197,51 @@ h2:nth-child(4) {
 .showcase-section figure img {
     width: fit-content;
 }
+
+/* This section above is for My work */
+
+.showcase-section + h2 {
+    text-align:center;
+    font-size: 2rem;
+    background-color: black;
+    margin-bottom:0;
+    padding-bottom: 0;
+    padding-top: 7rem;
+    color: white;
+
+}
+
+.showcase-section + h2, .reference-section {
+    background-color: black;
+}
+
+
+.reference-section {
+    display: flex;
+    padding-bottom: 0rem;
+}
+
+.reference-section article {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 50px 75px 50px 75px;
+    background-color: black;
+    margin: 0rem 4rem 4rem 2rem;
+}
+
+.reference-section article p {
+    font-style: italic;
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+
+.reference-section cite {
+    color: grey;
+    margin-left: 4rem;
+}
+
+/* Section above is for Tell it better */
