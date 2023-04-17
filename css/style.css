@@ -269,3 +269,13 @@ h2:nth-child(4) {
     flex-direction: column;
     margin-top: 2rem;
 }
+
+/* Section above is for contact info */
+
+
+footer {
+    text-align: center;
+    color: #FAFAFA;
+    background-color: black;
+    padding-top: 0.5rem;
+}
