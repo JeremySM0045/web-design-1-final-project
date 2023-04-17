@@ -245,3 +245,27 @@ h2:nth-child(4) {
 }
 
 /* Section above is for Tell it better */
+
+.contact-section {
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    }
+
+.contact-section h2 {
+    border: 2px solid white;
+    padding: 4rem 5rem 1rem 5rem;
+    font-size: 2rem;
+}
+
+    .contact-section p {
+    border: 2px solid white;
+    padding: 0rem 18rem 1rem 18rem;
+}
+
+
+.contact-section figure {
+    width: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
