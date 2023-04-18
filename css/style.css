@@ -1,281 +1,261 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    max-width: 1280px;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1280px;
+}
 
-
-  .wrapper {
-    max-width: 1280px;
+.wrapper {
+  max-width: 1280px;
 }
 
 header {
-    background-color: black;
-    width: auto;
+  background-color: black;
+  width: auto;
 }
 
 nav img {
-    width: 100%;
+  width: 100%;
 }
 
-  body {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-  }
-  
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
 
-  .grid-01 li {
-    list-style: none;
+.grid-01 li {
+  list-style: none;
+}
 
-  }
-  
-  .grid-01 {
-    background-color: white;
-    max-width: 1280px;
-    display: grid;
-    grid-template-rows: repeat(1, 50px); 
-    grid-template-columns: repeat(10, 1fr); 
-    background-color: black;
-    color: white; 
-    align-items: center;
-  }
+.grid-01 {
+  background-color: white;
+  max-width: 1280px;
+  display: grid;
+  grid-template-rows: repeat(1, 50px);
+  grid-template-columns: repeat(10, 1fr);
+  background-color: black;
+  color: white;
+  align-items: center;
+}
 
 .grid-01 li:nth-child(1) {
-    grid-column: 2 / span 3;
-    font-size: large;
+  grid-column: 2 / span 3;
+  font-size: large;
 }
 
 .grid-01 li:nth-child(2) {
-    grid-column: 7 / 7;
-    font-size: small;
+  grid-column: 7 / 7;
+  font-size: small;
 }
 
 .grid-01 li:nth-child(3) {
-    grid-column: 8 / 8;
-    font-size: small;
+  grid-column: 8 / 8;
+  font-size: small;
 }
-
 
 .grid-01 li:nth-child(4) {
-    grid-column: 9 / 9;
-    font-size: small;
+  grid-column: 9 / 9;
+  font-size: small;
 }
-
 
 .grid-01 li:nth-child(5) {
-    grid-column: 10 / 10;
-    font-size: small;
+  grid-column: 10 / 10;
+  font-size: small;
 }
 
-
 a:link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:visited {
-    text-decoration: none;
-    color: white;   
+  text-decoration: none;
+  color: white;
 }
 
 /* This section above is for the nav */
 
 .bio {
-    width: 50%;
-    margin-top: -30rem;
-    margin-left: 45rem;
-
+  width: 50%;
+  margin-top: -30rem;
+  margin-left: 45rem;
 }
 
 .section-01 {
-    margin-left: 3.5em;
-    margin-right: 12em;
-    margin-top: 15em;
+  margin-left: 3.5em;
+  margin-right: 12em;
+  margin-top: 15em;
 }
 
 .flex-01 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1rem;
-    margin-right: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 27rem;
 }
 
 .flex-01 p {
-    padding-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .section-01 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .section-01 h2 {
-    font-size: 1.2rem;
-    margin-top: 0.5em;
+  font-size: 1.2rem;
+  margin-top: 0.5em;
 }
-
 
 /* 
 this section above is for about me */
 
 .section-01 + h2 {
-    text-align:center;
-    font-size: 2rem;
-    background-color: #FAFAFA;
-    margin-bottom:0;
-    padding-bottom: 0;
-    padding-top: 7rem;
-
+  text-align: center;
+  font-size: 2rem;
+  background-color: #fafafa;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 7rem;
 }
 
-.section-01 + h2, .article-section {
-    background-color: #FAFAFA;
+.section-01 + h2,
+.article-section {
+  background-color: #fafafa;
 }
-
 
 .article-section {
-    display: flex;
+  display: flex;
 }
 
 .article-section article {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border: 2px solid white;
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-    margin: 2rem;
-
-    
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid white;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  margin: 2rem;
 }
 
 .article-section article h3 {
-    padding-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
 }
-
 
 .article-section article li {
-    list-style: none;
-    padding-top: 1rem;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
-button {
-    background-color: black;
-    border: 4px solid black;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 3rem;
-    
+.button {
+  background-color: black;
+  border: 4px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3rem;
 }
 /* 
 this section above is for what i can do */
 
-
 .showcase-section {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .showcase-section p {
-    text-align: center;
-    padding-bottom:5rem;
-    margin-left: 18rem;
-    margin-right: 18rem;
+  text-align: center;
+  padding-bottom: 5rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
 }
 
 h2:nth-child(4) {
-    text-align: center;
-    padding-top: 8rem;
-    padding-bottom: 0.5rem;
-    font-size: 2rem;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 .showcase-section figure img {
-    width: fit-content;
+  width: fit-content;
 }
 
 /* This section above is for My work */
 
 .showcase-section + h2 {
-    text-align:center;
-    font-size: 2rem;
-    background-color: black;
-    margin-bottom:0;
-    padding-bottom: 0;
-    padding-top: 7rem;
-    color: white;
-
+  text-align: center;
+  font-size: 2rem;
+  background-color: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 7rem;
+  color: white;
 }
 
-.showcase-section + h2, .reference-section {
-    background-color: black;
+.showcase-section + h2,
+.reference-section {
+  background-color: black;
 }
-
 
 .reference-section {
-    display: flex;
-    padding-bottom: 0rem;
+  display: flex;
+  padding-bottom: 0rem;
 }
 
 .reference-section article {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 2px solid black;
-    padding: 50px 75px 50px 75px;
-    background-color: black;
-    margin: 0rem 4rem 4rem 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  padding: 50px 75px 50px 75px;
+  background-color: black;
+  margin: 0rem 4rem 4rem 2rem;
 }
 
 .reference-section article p {
-    font-style: italic;
-    color: #FAFAFA;
-    text-align: center;
-    margin-bottom: 2rem;
-
+  font-style: italic;
+  color: #fafafa;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-
 .reference-section cite {
-    color: grey;
-    margin-left: 4rem;
+  color: grey;
+  margin-left: 4rem;
 }
 
 /* Section above is for Tell it better */
 
 .contact-section {
-    text-align: center;
-    padding: 50px 100px 50px 100px;
-    }
+  text-align: center;
+  padding: 50px 100px 50px 100px;
+}
 
 .contact-section h2 {
-    border: 2px solid white;
-    padding: 4rem 5rem 1rem 5rem;
-    font-size: 2rem;
+  border: 2px solid white;
+  padding: 4rem 5rem 1rem 5rem;
+  font-size: 2rem;
 }
 
-    .contact-section p {
-    border: 2px solid white;
-    padding: 0rem 18rem 1rem 18rem;
+.contact-section p {
+  border: 2px solid white;
+  padding: 0rem 18rem 1rem 18rem;
 }
-
 
 .contact-section figure {
-    width: 40px;
-    display: inline-flex;
-    flex-direction: column;
-    margin-top: 2rem;
+  width: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
 /* Section above is for contact info */
 
-
 footer {
-    text-align: center;
-    color: #FAFAFA;
-    background-color: black;
-    padding-top: 0.5rem;
+  text-align: center;
+  color: #fafafa;
+  background-color: black;
+  padding-top: 0.5rem;
 }
